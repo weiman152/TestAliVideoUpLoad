@@ -1,0 +1,15 @@
+PODS:
+  - AliyunOSSiOS (2.6.3)
+  - TZImagePickerController (1.9.3)
+
+DEPENDENCIES:
+  - AliyunOSSiOS
+  - TZImagePickerController
+
+SPEC CHECKSUMS:
+  AliyunOSSiOS: 98d79abaceed7485ec0e28dd09c5464acf4a67a0
+  TZImagePickerController: 079ab986018c22793462e531045a75e366b18252
+
+PODFILE CHECKSUM: 0681fa08c500c7a7caa640836f21cb6c28cd89a1
+
+COCOAPODS: 1.2.0

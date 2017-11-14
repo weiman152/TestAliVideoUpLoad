@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97CD54001F8DC21C006D5DE3 /* AliUpLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CD53FF1F8DC21C006D5DE3 /* AliUpLoad.m */; };
+		97CD54441F8DC4E3006D5DE3 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97CD54431F8DC4E3006D5DE3 /* libresolv.tbd */; };
+		97CD54461F8DC4F0006D5DE3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97CD54451F8DC4F0006D5DE3 /* SystemConfiguration.framework */; };
+		97CD544A1F8E0078006D5DE3 /* LRLVideoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CD54491F8E0078006D5DE3 /* LRLVideoPickerController.m */; };
+		97D6E00B1F8CD47300140287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D6E00A1F8CD47300140287 /* main.m */; };
+		97D6E00E1F8CD47300140287 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D6E00D1F8CD47300140287 /* AppDelegate.m */; };
+		97D6E0111F8CD47300140287 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D6E0101F8CD47300140287 /* ViewController.m */; };
+		97D6E0141F8CD47300140287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D6E0121F8CD47300140287 /* Main.storyboard */; };
+		97D6E0161F8CD47300140287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D6E0151F8CD47300140287 /* Assets.xcassets */; };
+		97D6E0191F8CD47300140287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D6E0171F8CD47300140287 /* LaunchScreen.storyboard */; };
+		97D6E0241F8CD47300140287 /* TestAliVideoUpLoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D6E0231F8CD47300140287 /* TestAliVideoUpLoadTests.m */; };
+		97D6E02F1F8CD47300140287 /* TestAliVideoUpLoadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D6E02E1F8CD47300140287 /* TestAliVideoUpLoadUITests.m */; };
+		AF94A4B79861CDEF40EBA2F4 /* libPods-TestAliVideoUpLoad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D884F0F877EF4715B0A9CB01 /* libPods-TestAliVideoUpLoad.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97D6E0201F8CD47300140287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97D6DFFE1F8CD47300140287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D6E0051F8CD47300140287;
+			remoteInfo = TestAliVideoUpLoad;
+		};
+		97D6E02B1F8CD47300140287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97D6DFFE1F8CD47300140287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D6E0051F8CD47300140287;
+			remoteInfo = TestAliVideoUpLoad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B8B758C21861D05C993133 /* Pods-TestAliVideoUpLoad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAliVideoUpLoad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestAliVideoUpLoad/Pods-TestAliVideoUpLoad.debug.xcconfig"; sourceTree = "<group>"; };
+		97CD53FE1F8DC21C006D5DE3 /* AliUpLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliUpLoad.h; sourceTree = "<group>"; };
+		97CD53FF1F8DC21C006D5DE3 /* AliUpLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliUpLoad.m; sourceTree = "<group>"; };
+		97CD54431F8DC4E3006D5DE3 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		97CD54451F8DC4F0006D5DE3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		97CD54481F8E0078006D5DE3 /* LRLVideoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRLVideoPickerController.h; sourceTree = "<group>"; };
+		97CD54491F8E0078006D5DE3 /* LRLVideoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLVideoPickerController.m; sourceTree = "<group>"; };
+		97D6E0061F8CD47300140287 /* TestAliVideoUpLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAliVideoUpLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D6E00A1F8CD47300140287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97D6E00C1F8CD47300140287 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97D6E00D1F8CD47300140287 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97D6E00F1F8CD47300140287 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97D6E0101F8CD47300140287 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97D6E0131F8CD47300140287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97D6E0151F8CD47300140287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97D6E0181F8CD47300140287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97D6E01A1F8CD47300140287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D6E01F1F8CD47300140287 /* TestAliVideoUpLoadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAliVideoUpLoadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D6E0231F8CD47300140287 /* TestAliVideoUpLoadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAliVideoUpLoadTests.m; sourceTree = "<group>"; };
+		97D6E0251F8CD47300140287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D6E02A1F8CD47300140287 /* TestAliVideoUpLoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAliVideoUpLoadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D6E02E1F8CD47300140287 /* TestAliVideoUpLoadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAliVideoUpLoadUITests.m; sourceTree = "<group>"; };
+		97D6E0301F8CD47300140287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EBF0BD35BC19528F6D6FC5 /* Pods-TestAliVideoUpLoad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAliVideoUpLoad.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestAliVideoUpLoad/Pods-TestAliVideoUpLoad.release.xcconfig"; sourceTree = "<group>"; };
+		D884F0F877EF4715B0A9CB01 /* libPods-TestAliVideoUpLoad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestAliVideoUpLoad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97D6E0031F8CD47300140287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CD54461F8DC4F0006D5DE3 /* SystemConfiguration.framework in Frameworks */,
+				97CD54441F8DC4E3006D5DE3 /* libresolv.tbd in Frameworks */,
+				AF94A4B79861CDEF40EBA2F4 /* libPods-TestAliVideoUpLoad.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6E01C1F8CD47300140287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6E0271F8CD47300140287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FA936A0693B68C710FB78DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06B8B758C21861D05C993133 /* Pods-TestAliVideoUpLoad.debug.xcconfig */,
+				D2EBF0BD35BC19528F6D6FC5 /* Pods-TestAliVideoUpLoad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97CD54471F8E0078006D5DE3 /* photoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				97CD54481F8E0078006D5DE3 /* LRLVideoPickerController.h */,
+				97CD54491F8E0078006D5DE3 /* LRLVideoPickerController.m */,
+			);
+			path = photoPicker;
+			sourceTree = "<group>";
+		};
+		97D6DFFD1F8CD47300140287 = {
+			isa = PBXGroup;
+			children = (
+				97D6E0081F8CD47300140287 /* TestAliVideoUpLoad */,
+				97D6E0221F8CD47300140287 /* TestAliVideoUpLoadTests */,
+				97D6E02D1F8CD47300140287 /* TestAliVideoUpLoadUITests */,
+				97D6E0071F8CD47300140287 /* Products */,
+				8FA936A0693B68C710FB78DA /* Pods */,
+				C0CA22A5B56BF5106713CCDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97D6E0071F8CD47300140287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97D6E0061F8CD47300140287 /* TestAliVideoUpLoad.app */,
+				97D6E01F1F8CD47300140287 /* TestAliVideoUpLoadTests.xctest */,
+				97D6E02A1F8CD47300140287 /* TestAliVideoUpLoadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97D6E0081F8CD47300140287 /* TestAliVideoUpLoad */ = {
+			isa = PBXGroup;
+			children = (
+				97CD54471F8E0078006D5DE3 /* photoPicker */,
+				97D6E00C1F8CD47300140287 /* AppDelegate.h */,
+				97D6E00D1F8CD47300140287 /* AppDelegate.m */,
+				97CD53FE1F8DC21C006D5DE3 /* AliUpLoad.h */,
+				97CD53FF1F8DC21C006D5DE3 /* AliUpLoad.m */,
+				97D6E00F1F8CD47300140287 /* ViewController.h */,
+				97D6E0101F8CD47300140287 /* ViewController.m */,
+				97D6E0121F8CD47300140287 /* Main.storyboard */,
+				97D6E0151F8CD47300140287 /* Assets.xcassets */,
+				97D6E0171F8CD47300140287 /* LaunchScreen.storyboard */,
+				97D6E01A1F8CD47300140287 /* Info.plist */,
+				97D6E0091F8CD47300140287 /* Supporting Files */,
+			);
+			path = TestAliVideoUpLoad;
+			sourceTree = "<group>";
+		};
+		97D6E0091F8CD47300140287 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97D6E00A1F8CD47300140287 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97D6E0221F8CD47300140287 /* TestAliVideoUpLoadTests */ = {
+			isa = PBXGroup;
+			children = (
+				97D6E0231F8CD47300140287 /* TestAliVideoUpLoadTests.m */,
+				97D6E0251F8CD47300140287 /* Info.plist */,
+			);
+			path = TestAliVideoUpLoadTests;
+			sourceTree = "<group>";
+		};
+		97D6E02D1F8CD47300140287 /* TestAliVideoUpLoadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97D6E02E1F8CD47300140287 /* TestAliVideoUpLoadUITests.m */,
+				97D6E0301F8CD47300140287 /* Info.plist */,
+			);
+			path = TestAliVideoUpLoadUITests;
+			sourceTree = "<group>";
+		};
+		C0CA22A5B56BF5106713CCDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97CD54451F8DC4F0006D5DE3 /* SystemConfiguration.framework */,
+				97CD54431F8DC4E3006D5DE3 /* libresolv.tbd */,
+				D884F0F877EF4715B0A9CB01 /* libPods-TestAliVideoUpLoad.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97D6E0051F8CD47300140287 /* TestAliVideoUpLoad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D6E0331F8CD47300140287 /* Build configuration list for PBXNativeTarget "TestAliVideoUpLoad" */;
+			buildPhases = (
+				07405F1E5F4C8DDE0EDABC0E /* [CP] Check Pods Manifest.lock */,
+				97D6E0021F8CD47300140287 /* Sources */,
+				97D6E0031F8CD47300140287 /* Frameworks */,
+				97D6E0041F8CD47300140287 /* Resources */,
+				C5EE14CB43C0CBE4AA605CA4 /* [CP] Embed Pods Frameworks */,
+				0481C368FB8BEF26E4F52957 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAliVideoUpLoad;
+			productName = TestAliVideoUpLoad;
+			productReference = 97D6E0061F8CD47300140287 /* TestAliVideoUpLoad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97D6E01E1F8CD47300140287 /* TestAliVideoUpLoadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D6E0361F8CD47300140287 /* Build configuration list for PBXNativeTarget "TestAliVideoUpLoadTests" */;
+			buildPhases = (
+				97D6E01B1F8CD47300140287 /* Sources */,
+				97D6E01C1F8CD47300140287 /* Frameworks */,
+				97D6E01D1F8CD47300140287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97D6E0211F8CD47300140287 /* PBXTargetDependency */,
+			);
+			name = TestAliVideoUpLoadTests;
+			productName = TestAliVideoUpLoadTests;
+			productReference = 97D6E01F1F8CD47300140287 /* TestAliVideoUpLoadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97D6E0291F8CD47300140287 /* TestAliVideoUpLoadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D6E0391F8CD47300140287 /* Build configuration list for PBXNativeTarget "TestAliVideoUpLoadUITests" */;
+			buildPhases = (
+				97D6E0261F8CD47300140287 /* Sources */,
+				97D6E0271F8CD47300140287 /* Frameworks */,
+				97D6E0281F8CD47300140287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97D6E02C1F8CD47300140287 /* PBXTargetDependency */,
+			);
+			name = TestAliVideoUpLoadUITests;
+			productName = TestAliVideoUpLoadUITests;
+			productReference = 97D6E02A1F8CD47300140287 /* TestAliVideoUpLoadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97D6DFFE1F8CD47300140287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = whh;
+				TargetAttributes = {
+					97D6E0051F8CD47300140287 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9ECXZ932UT;
+						ProvisioningStyle = Automatic;
+					};
+					97D6E01E1F8CD47300140287 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9ECXZ932UT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 97D6E0051F8CD47300140287;
+					};
+					97D6E0291F8CD47300140287 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9ECXZ932UT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 97D6E0051F8CD47300140287;
+					};
+				};
+			};
+			buildConfigurationList = 97D6E0011F8CD47300140287 /* Build configuration list for PBXProject "TestAliVideoUpLoad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97D6DFFD1F8CD47300140287;
+			productRefGroup = 97D6E0071F8CD47300140287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97D6E0051F8CD47300140287 /* TestAliVideoUpLoad */,
+				97D6E01E1F8CD47300140287 /* TestAliVideoUpLoadTests */,
+				97D6E0291F8CD47300140287 /* TestAliVideoUpLoadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97D6E0041F8CD47300140287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D6E0191F8CD47300140287 /* LaunchScreen.storyboard in Resources */,
+				97D6E0161F8CD47300140287 /* Assets.xcassets in Resources */,
+				97D6E0141F8CD47300140287 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6E01D1F8CD47300140287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6E0281F8CD47300140287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0481C368FB8BEF26E4F52957 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAliVideoUpLoad/Pods-TestAliVideoUpLoad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07405F1E5F4C8DDE0EDABC0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EE14CB43C0CBE4AA605CA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAliVideoUpLoad/Pods-TestAliVideoUpLoad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97D6E0021F8CD47300140287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D6E0111F8CD47300140287 /* ViewController.m in Sources */,
+				97CD54001F8DC21C006D5DE3 /* AliUpLoad.m in Sources */,
+				97D6E00E1F8CD47300140287 /* AppDelegate.m in Sources */,
+				97CD544A1F8E0078006D5DE3 /* LRLVideoPickerController.m in Sources */,
+				97D6E00B1F8CD47300140287 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6E01B1F8CD47300140287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D6E0241F8CD47300140287 /* TestAliVideoUpLoadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6E0261F8CD47300140287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D6E02F1F8CD47300140287 /* TestAliVideoUpLoadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97D6E0211F8CD47300140287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97D6E0051F8CD47300140287 /* TestAliVideoUpLoad */;
+			targetProxy = 97D6E0201F8CD47300140287 /* PBXContainerItemProxy */;
+		};
+		97D6E02C1F8CD47300140287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97D6E0051F8CD47300140287 /* TestAliVideoUpLoad */;
+			targetProxy = 97D6E02B1F8CD47300140287 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97D6E0121F8CD47300140287 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97D6E0131F8CD47300140287 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97D6E0171F8CD47300140287 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97D6E0181F8CD47300140287 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97D6E0311F8CD47300140287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97D6E0321F8CD47300140287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97D6E0341F8CD47300140287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B8B758C21861D05C993133 /* Pods-TestAliVideoUpLoad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ECXZ932UT;
+				INFOPLIST_FILE = TestAliVideoUpLoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzi.TestAliVideoUpLoad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97D6E0351F8CD47300140287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2EBF0BD35BC19528F6D6FC5 /* Pods-TestAliVideoUpLoad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ECXZ932UT;
+				INFOPLIST_FILE = TestAliVideoUpLoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzi.TestAliVideoUpLoad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97D6E0371F8CD47300140287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9ECXZ932UT;
+				INFOPLIST_FILE = TestAliVideoUpLoadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzi.TestAliVideoUpLoadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAliVideoUpLoad.app/TestAliVideoUpLoad";
+			};
+			name = Debug;
+		};
+		97D6E0381F8CD47300140287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9ECXZ932UT;
+				INFOPLIST_FILE = TestAliVideoUpLoadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzi.TestAliVideoUpLoadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAliVideoUpLoad.app/TestAliVideoUpLoad";
+			};
+			name = Release;
+		};
+		97D6E03A1F8CD47300140287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9ECXZ932UT;
+				INFOPLIST_FILE = TestAliVideoUpLoadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzi.TestAliVideoUpLoadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestAliVideoUpLoad;
+			};
+			name = Debug;
+		};
+		97D6E03B1F8CD47300140287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9ECXZ932UT;
+				INFOPLIST_FILE = TestAliVideoUpLoadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juzi.TestAliVideoUpLoadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestAliVideoUpLoad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97D6E0011F8CD47300140287 /* Build configuration list for PBXProject "TestAliVideoUpLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D6E0311F8CD47300140287 /* Debug */,
+				97D6E0321F8CD47300140287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97D6E0331F8CD47300140287 /* Build configuration list for PBXNativeTarget "TestAliVideoUpLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D6E0341F8CD47300140287 /* Debug */,
+				97D6E0351F8CD47300140287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97D6E0361F8CD47300140287 /* Build configuration list for PBXNativeTarget "TestAliVideoUpLoadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D6E0371F8CD47300140287 /* Debug */,
+				97D6E0381F8CD47300140287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97D6E0391F8CD47300140287 /* Build configuration list for PBXNativeTarget "TestAliVideoUpLoadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D6E03A1F8CD47300140287 /* Debug */,
+				97D6E03B1F8CD47300140287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97D6DFFE1F8CD47300140287 /* Project object */;
+}
